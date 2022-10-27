@@ -1,0 +1,26 @@
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.2rem;
+
+    color: #313131;
+    font-size: 0.8rem;
+    transition: background-color 0.4s ease;
+    font-family: inherit;
+    margin-top: 5rem;
+}
+
+.input::placeholder{
+    color: #aaa;
+}
+
+.input:focus {
+    background-color: rgba(241, 203, 203, 0.75);
+    transition: background-color 0.4s ease;
+}

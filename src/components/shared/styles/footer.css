@@ -1,0 +1,30 @@
+.footer {
+    background-color: rgb(58, 56, 56);
+    height: 150px;
+    font-family: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer__title {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    font-size: 1.1rem;
+    color: #aaa;
+}
+
+.footer_item {
+    cursor: pointer;
+    border: 0.05rem solid #aaa;
+    padding: 0.5rem;
+    border-radius: 50%;
+}

@@ -1,0 +1,34 @@
+.cart__p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    gap: 0.8rem;
+}
+
+.cart__p-title {
+    grid-column: span 2;
+}
+
+.cart__p-btn {
+    background-color: var(--bg-color-red);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    width: 30%;
+    margin-left: 4.5rem;
+    transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+.cart__p-btn:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+    transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+.cart__p-icon {
+    font-size: 1.2rem;
+    color: white;
+}
+

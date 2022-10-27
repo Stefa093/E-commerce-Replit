@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300;400;700&display=swap');
+:root {
+    --bg-color-red: #F85555;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Averia Sans Libre', cursive;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+ul, li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+}
+
+a {
+    color: inherit; 
+    text-decoration: inherit
+}

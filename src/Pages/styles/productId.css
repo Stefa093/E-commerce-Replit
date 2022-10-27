@@ -1,0 +1,22 @@
+.prodId__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prodId__bread {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.prodId__link,
+.prodId__icon {
+    color: var(--bg-color-red);
+}
+
+.prodId__icon {
+    font-size: 0.7rem;
+}

@@ -1,0 +1,39 @@
+.card__purchase-container {
+    margin-top: 1.5rem;
+    border: 0.05rem solid #aaa;
+    border-radius: 0.3rem;
+}
+
+.card__purchase-header {
+    margin-bottom: 0.8rem;
+    border-bottom: 0.05rem solid #aaa;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: rgb(122, 119, 119);
+}
+
+.card__purchase-content {
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr ;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.title-content {
+    font-size: 1.2rem;
+}
+
+.quant-content {
+    border: 0.05rem solid #aaa;
+    padding: 0.5rem;
+    text-align: center;
+}

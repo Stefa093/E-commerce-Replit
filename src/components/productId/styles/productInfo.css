@@ -1,0 +1,104 @@
+.product__info {
+    width: 100%;
+    max-width: 600px;
+    padding: 1.8rem;
+}
+
+.product__info-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.product__info-description {
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.product__info-footer {
+    display: grid;
+    justify-items: center;
+    row-gap: 2.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.product__info-price-label,
+.product__info-quantity-label {
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: #aaa;
+    margin-bottom: 0.9rem;
+}
+
+.product__info-price-number {
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    gap: 0.5rem;
+    transform: translateX(0.5rem);
+}
+
+.product__info-price-number::before {
+    content: '$';
+}
+
+.counter {
+    display: flex;
+    border: 0.08rem solid #aaa;
+    width: max-content;
+}
+
+.counter__minus,
+.counter__plus,
+.counter__number {
+    height: 2rem;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.counter__minus,
+.counter__plus {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.counter__minus:hover,
+.counter__plus:hover {
+    background-color: #eee;
+    transition: background-color 0.3s ease;
+}
+
+.counter__number {
+    aspect-ratio: 1.5;
+    border-right: 0.08rem solid #aaa;
+    border-left: 0.08rem solid #aaa;
+}
+
+.product__info-btn {
+    grid-column: span 2;
+    padding: 1rem;
+    background-color: var(--bg-color-red);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: filter 0.3s ease, transform 0.5s ease;
+    width: 100%;
+}
+
+.product__info-icon {
+    font-size: 1.3rem;
+    margin-left: 0.8rem;
+}
+
+.product__info-btn:hover {
+    filter: brightness(1.1);
+    transform: scale(1.05);
+    transition: filter 0.3s ease, transform 0.5s ease;
+}
+
+

@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 7rem;
+    padding: 0.5rem 0;
+    margin-bottom: 2rem;
+    position: fixed;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1;
+}
+
+.header__title{
+    color: var(--bg-color-red);
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding-left: 0.5rem;
+}
+
+.header__nav {
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 1.5rem;
+    padding-right: 0.5rem;
+}
+

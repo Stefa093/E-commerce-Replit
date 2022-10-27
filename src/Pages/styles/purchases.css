@@ -1,0 +1,33 @@
+.purchases {
+    padding: 0 1.5rem;
+}
+
+.purchases__title {
+    margin-bottom: 0.9rem;
+    padding-top: 4rem;
+}
+
+.purchases__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+.purchases__bread {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.purchases__link,
+.purchases__icon {
+    color: var(--bg-color-red);
+}
+
+.purchases__icon {
+    font-size: 0.7rem;
+}
