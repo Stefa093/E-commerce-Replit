@@ -40,3 +40,12 @@
     filter: brightness(1.2);
     transition: filter 0.5s ease;
 }
+
+@media (min-width: 800px) {
+    .cart__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

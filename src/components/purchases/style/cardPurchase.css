@@ -37,3 +37,9 @@
     padding: 0.5rem;
     text-align: center;
 }
+
+@media (min-width: 800px) {
+    .card__purchase-container {
+        min-width: 700px;
+    }
+}

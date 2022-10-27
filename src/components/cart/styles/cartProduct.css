@@ -32,3 +32,8 @@
     color: white;
 }
 
+@media (min-width: 800px) {
+    .cart__p {
+        min-width: 700px;
+    }
+}
